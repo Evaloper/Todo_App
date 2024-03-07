@@ -12,10 +12,6 @@ const allTaskBtn = document.querySelector('.all');
 const showActiveTodos = document.querySelector('.activeBtn');
 const showCompletedTodos = document.querySelector('.completed');
 
-new Sortable(listContainer, {
-  animation: 150,
-  ghostClass: 'blue-background-class',
-});
 
 const LOCAL_STORAGE_LIST = 'task.todos';
 
