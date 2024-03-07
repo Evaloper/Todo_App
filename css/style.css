@@ -164,7 +164,7 @@ main {
 }
 
 input::placeholder {
-  font-size: 1rem;
+  font-size: 12px;
   letter-spacing: 1px;
 }
 
@@ -388,7 +388,7 @@ li::after {
   }
 
   .header {
-    min-height: 31vh;
+    min-height: 35vh;
   }
 
   main {
@@ -416,13 +416,15 @@ li::after {
 
   .addTodo input {
     margin-top: 2.05rem;
-    height: 5rem;
+    height: 4rem;
     padding-bottom: 2.5rem !important;
     font-family: 'Josefin Sans', sans-serif;
   }
 
   input::placeholder {
     position: absolute;
+    font-size: 2rem;
+
   }
 
   .plusSign {
