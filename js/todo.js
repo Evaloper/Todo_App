@@ -169,7 +169,6 @@ const clearCompletedTodos = () => {
   showCompletedTodos.classList.remove('active');
   if (clearCompleted.length === todos.length) {
     alert.style.display = 'block';
-    alert.textContent = 'Tick one or more items first';
     setTimeout(() => {
       alert.style.display = 'none';
     }, 1500);
@@ -177,7 +176,6 @@ const clearCompletedTodos = () => {
 
   if (clearCompleted.length !== todos.length) {
     alert.style.display = 'block';
-    alert.textContent = `Deleted`;
     setTimeout(() => {
       alert.style.display = 'none';
     }, 1500);
@@ -185,7 +183,6 @@ const clearCompletedTodos = () => {
 
   if (clearCompleted.length === 0 && todos.length === 0) {
     alert.style.display = 'block';
-    alert.textContent = `No item left`;
     setTimeout(() => {
       alert.style.display = 'none';
     }, 1500);
